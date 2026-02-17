@@ -7,7 +7,7 @@ Example:
 - Transaction A starts
 - Transaction B starts
 - Transaction A change data
-- Transaction B reads the data before transaction A changes it 
+- Transaction B reads the data before transaction A commits 
 - Transaction A commits.
 - Transaction B can now see transaction A changes.
 
